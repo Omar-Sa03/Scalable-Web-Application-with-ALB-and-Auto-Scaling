@@ -1,6 +1,6 @@
-# AWS Scalable Retail Platform Architecture
+# AWS Scalable E-Commerce Platform Architecture
 
-## Business Challenge
+## Scenario
 
 A rapidly growing e-commerce platform is gearing up for their biggest sales event of the year - Black Friday. Historical data shows traffic can surge up to 10x normal volumes within minutes, and the company cannot afford any downtime or performance degradation. 
 
@@ -91,7 +91,9 @@ A rapidly growing e-commerce platform is gearing up for their biggest sales even
 
 - Centralized storage that reduces redundancy and simplifies file management.
 - Easy scaling of storage as more files are added, without worrying about capacity limitations.
+
 ## Overall Benefits:
+
 - Scalability: Seamless auto scaling capabilities allow the system to handle fluctuations in traffic efficiently, essential during promotional events or sales where traffic surges.
 - Cost Efficiency: Pay only for the resources used. The ASG and EFS ensure that the infrastructure scales as needed without over-provisioning resources.
 - Security: VPC and tailored security groups provide a secure environment, essential for handling sensitive user data and preventing - unauthorized access.
